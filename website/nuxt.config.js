@@ -34,6 +34,13 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  components:{
+    dirs: [
+      '~/components',
+      '~/components/gerenciamento',
+      '~/components/autenticacao',
+    ]
+  },
 }
 
